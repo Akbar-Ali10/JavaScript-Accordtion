@@ -1,0 +1,36 @@
+
+ h1{
+    margin-left: 40%;
+    margin-top: 100px;
+ }
+.accordion{
+    margin-left: 33%;
+    text-align: center;
+    font-family: arial;
+    width: 450px;
+    /* margin-left: 20px; */
+    
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-tittle{
+    color: white;
+    background: #dc2b2b;
+    border: 1px solid #dc2b2b;
+    cursor: pointer ;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.accordion-tittle:hover{
+    background: #9a1616;
+}
+.accordion-contant{
+    background-color: #e6d6a4;
+    padding: 10px;
+    display: none;
+}
+.accordion-item.active .accordion-contant{
+    display: block;
+}
